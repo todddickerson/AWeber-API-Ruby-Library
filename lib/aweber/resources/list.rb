@@ -7,6 +7,7 @@ module AWeber
       BROADCAST_TYPE_LINK = File.join(AWeber.api_url, "#broadcast_campaign")
       
       api_attr :name
+      api_attr :unique_list_id
 
       api_attr :campaigns_collection_link
       api_attr :subscribers_collection_link
